@@ -1,0 +1,10 @@
+SolarPractice4 — Android practical work 4 (sessions 13–16)
+
+Open in Android Studio with Java 21 as Gradle JDK and Android SDK 35.
+On macOS: cd ~/Desktop/SolarPractice4 && sh setup-gradle.sh
+Open the root project and run app on Pixel 8 API 34.
+
+OSM map tiles need internet. GPS needs runtime location permission.
+The sample stations and readings are simulated educational data.
+If location is empty on emulator, set coordinates via Extended Controls > Location.
+No Google Maps API key is required; mapping uses osmdroid and OSM tile service.
